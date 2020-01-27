@@ -1,0 +1,13 @@
+{
+    "name": "starterapp",
+    "version": "1.0.0",
+    "description": "A starter Ext JS 6 App",
+    "main": "./app/main.js",
+    "scripts": {
+        "start": "electron .",
+        "package": "electron-packager ./ starterapp --all --out ./dist --overwrite",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "TBD",
+    "license": "UNLICENSED"
+}
